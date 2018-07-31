@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Services</title>
+	<link href="Garden.css" rel="stylesheet"> 
+</head>
+<body>
+	<header>
+		<a href="#"><img src="../images/logo.png" alt="logo"></a>
+
+		<ul class="nav">
+    		<li class="nav__item"><a class="nav__link" href="Garden.html">ГЛАВНАЯ</a></li>
+  			<li class="nav__item"><a class="nav__link" href="Services.html">УСЛУГИ</a></li>
+    		<li class="nav__item"><a class="nav__link" href="#">КОНТАКТЫ</a></li>
+		</ul>
+  	</header>
+
+
+
+  	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>    
+<!-- скрипт шапки-->
+<script>
+$(window).scroll(function() {
+if ($(this).scrollTop() > 1){  
+$('header').addClass("glide");
+}
+else{
+$('header').removeClass("glide");
+}
+});
+</script>
+
+
+  	
+
+<div class="service">
+	<form class="form">
+		<h3>НАПИШИТЕ НАМ:</h3>
+   		<p ><input class="form__tab" name="name" placeholder="Имя..." size="30" maxlength="30"> 
+   			<input class="form__tab" name="email" placeholder="Введите email..." size="30" maxlength="30"> </p>
+
+   		<p><textarea class="tab3" name="comment" placeholder="Введите сообщение..." cols="60" rows="6" maxlength="200"></textarea></p>
+  		<p><h3><input class="send" value="Отправить" name="feedback" type="submit"></h3></p>
+   	</form>
+
+	<div class="text">
+		<h3>КОНТАКТЫ</h3>
+		<p>Шоу-рум <b>The Garden</b> разместился в начале 2018 года по адресу<br> ул. Мечникова, 2 г. Киев.</p>
+
+		<p>Найти нас просто — находимся в бизнес-центре "Парус". Приходите и чувствуйте себя, как дома.</p>
+
+		<p>Звоните нам:   <a href="#">+38 095 111 0000</a></p>
+
+		<p>Пишите нам: <a href="#">info@garden.com.ua</a></p>
+	</div>
+
+    
+    	<iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2541.187136021203!2d30.5251354514635!3d50.43761487937292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf01aedd1ea7%3A0xeed100fd1e013c56!2zUGFydXMsINGD0LsuINCc0LXRh9C90LjQutC-0LLQsCwgMiwg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1532429415138" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
+
+
+
+    
+
+ 	<footer class="footer">
+  		<div class="footer__copyright">
+  			<p>&copy THE GARDEN SHEFFIELD DESIGN 2018</p>
+  		</div>
+
+  		<div class="footer__address">
+  				<div class="footer__address_place">
+  					<p>Шоу-рум работает по адресу:<br> 
+                	г. Киев, ул. Мечникова, 2<br>
+                	Часы работы 10.00 - 20.00<br> 
+                	+38 095 111 0000</p>
+    			</div>
+
+	    	<div class="footer__address_icons">
+	    		<div class="social facebook">
+   					 <a href="https://uk-ua.facebook.com/" target="_blank"><i class="fa fa-facebook fa-2x"><img src="../images/face.png" alt="4"></i></a>    
+				</div>
+
+				<div class="social pinterest">
+	   				 <a href="https://www.pinterest.com/" target="_blank"><i class="fa fa-pinterest fa-2x"><img src="../images/pin.png" alt="4"></i></a>
+				</div> 
+
+
+				<div class="social instagram">
+				    <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram fa-2x"><img src="../images/inst.png" alt="4"></i></a>
+				</div>
+  			</div>
+  		</div>
+  	</footer>
+
+
+</body>
+</html>
