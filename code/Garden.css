@@ -802,6 +802,7 @@ a.news span{
   	background: transparent;
   	border-top: transparent;
 
+
 }
 
 .products__forsale_r p, strong{
@@ -1053,9 +1054,13 @@ a.news span{
 .service{
     flex: row;
     color: #656565;
-    height: 1150px;
+    height: 1100px;
     font-size: 16px;
     padding-top: 120px;
+}
+
+.service__t{
+	overflow: hidden;
 }
 
 .service__t h3{
@@ -1070,11 +1075,11 @@ a.news span{
 
 
 .service__image img{
-    width: 73.5%;
+    width: 68.5%;
     display: block;
     margin: 0 auto;
-    height: 700px;
-    margin-left: 154px;
+    height: 600px;
+    margin-left: 134px;
     margin-top: 40px;
 }
 
@@ -1239,15 +1244,11 @@ a.news span{
         padding-bottom: 32px;
     }
 
-   
+      
     .products__forsale_r{
     	width: 42%;
     	margin: 0 auto;
     	overflow: hidden;
-    }
-
-    .products__forsale{
-    	padding-left: -50%;
     }
 
 
@@ -1298,12 +1299,16 @@ a.news span{
         overflow-y: hidden;
    }
 
+   .content__section2{
+   	height: auto;
+   }
+
    .content__section2_text {
     margin-top: -77px;
    }
 
 
-    .content__section1_pic img, .content__section2_pic img, .service__image img{
+    .content__section1_pic img, .content__section2_pic img, .service__image img, .products__reccomend{
         display: none;
     }
   
